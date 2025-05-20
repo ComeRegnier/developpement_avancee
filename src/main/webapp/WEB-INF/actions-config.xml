@@ -5,5 +5,4 @@
     <action name="ActionUn" class="com.uvsq.monsite.action.ActionUn"/>
     <action name="LogoutAction" class="com.uvsq.monsite.action.LogoutAction"/>
     <action name="CheckAttributesAction" class="com.uvsq.monsite.action.CheckAttributesAction"/>
-    <action name="qsojdfpoqsjdqsop" class="qsdqsdqs"/>
 </actions>
