@@ -1,13 +1,11 @@
 package com.uvsq.monsite.controller;
-import com.uvsq.monsite.action.Action;
+
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
-
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
+import com.uvsq.monsite.action.Action;
 import com.uvsq.monsite.factory.MyFactory;
-
 
 public class DispatcherServlet extends HttpServlet {
 
@@ -15,8 +13,7 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
-        // Utilisation de la factory pour créer la map d'actions
-        actionMap = MyFactory.createActionMap();
+        actionMap = MyFactory.createActionMap(getServletContext());
     }
 
     @Override

@@ -7,6 +7,7 @@
         return;
     }
 %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
 </head>
 <body>
 <h1>Bienvenue, <%= user.getUsername() %>!</h1>
-<form action="ActionUn.do" method="post">
+<form action="CheckAttributesAction.do" method="post">
     <label>Attribut 1 :</label>
     <input type="text" name="attribut1" value="<%= user.getAttribut1() %>"/><br/>
     <label>Attribut 2 :</label>

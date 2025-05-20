@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action name="ActionDebut" class="com.uvsq.monsite.action.ActionDebut"/>
+    <action name="LoginAction" class="com.uvsq.monsite.action.LoginAction"/>
+    <action name="ActionUn" class="com.uvsq.monsite.action.ActionUn"/>
+    <action name="LogoutAction" class="com.uvsq.monsite.action.LogoutAction"/>
+    <action name="CheckAttributesAction" class="com.uvsq.monsite.action.CheckAttributesAction"/>
+    <action name="qsojdfpoqsjdqsop" class="qsdqsdqs"/>
+</actions>
